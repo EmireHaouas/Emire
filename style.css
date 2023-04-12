@@ -114,8 +114,13 @@ a{
     padding-left: 25px;
   }
   footer{
-    background-color: rgba(222, 240, 231, 1)
-  }
+    background-color: rgba(222, 240, 231, 1);
+    margin-bottom: 0;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 588px;
+    padding-right: 588px;
+}
   .profil_picture2{
     width: 400px;
     height: 400px;
@@ -154,7 +159,7 @@ a{
 .about{
     display: flex;
     flex-direction: row;
-    margin-bottom: 150px;
+    margin-bottom: 202px;
     margin-top: 140px;
 }
 .description_about{
@@ -193,4 +198,70 @@ li {
 } 
 .li1,.li2, .li4, .li5{
     margin-bottom: 22px;
+}
+.my_service{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 210px;
+}
+.myservice{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 30px;
+    color: #0FBF61;
+    align-self: center;
+    margin-bottom: 92px;
+}
+.pres_myservice{
+    display: flex;
+    flex-direction: row;
+}
+.ux1{
+    background-color: rgba(15, 191, 97, 0.2);
+    border-radius: 20px;
+    padding: 25px 25px 25px 25px;
+    margin-left: 164px;
+}
+.ux2{
+    background: rgba(45, 76, 255, 0.13);
+    border-radius: 20px;
+    padding: 25px 25px 25px 25px;
+    margin-left: 164px;
+    
+}
+.ux3{
+    background: rgba(15, 191, 97, 0.05);
+    border-radius: 20px;
+    padding: 25px 25px 25px 25px;
+    margin-left: 164px;
+}
+.service1, .service2, .service3{
+    display: flex;
+    flex-direction: row;
+}
+.h1_service1, .h1_service2, .h1_service3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 30px;
+}
+.span_service1, .span_service2, .span_service3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #494949;
+}
+.h1_footer{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
 }
